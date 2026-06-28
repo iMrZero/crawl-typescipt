@@ -6,31 +6,34 @@ A lightweight **web crawler built with TypeScript** for scraping, indexing, and 
 
 ## 🚀 Features
 
-- **[TypeScript-based](ca://s?q=TypeScript_web_crawler)** for strong typing and maintainability  
-- **[Customizable crawling](ca://s?q=Customizable_web_crawling)** depth and concurrency  
-- **[HTML parsing](ca://s?q=HTML_parsing_in_TypeScript)** using Cheerio or similar libraries  
-- **[Link extraction](ca://s?q=Link_extraction_in_web_crawlers)** for recursive crawling  
-- **[Error handling](ca://s?q=Error_handling_in_web_crawlers)** and retry logic  
-- **[Extensible architecture](ca://s?q=Extensible_web_crawler_architecture)** for plugins or additional parsers  
+- **TypeScript-based** for strong typing and maintainability  
+- **Customizable crawling** depth and concurrency  
+- **HTML parsing** using Cheerio (or similar libraries)  
+- **Link extraction** for recursive crawling  
+- **Robust error handling** and retry logic  
+- **Extensible architecture** for plugins or additional parsers  
 
 ---
 
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/iMrZero/crawl-typescipt.git
-cd crawl-typescipt
+git clone https://github.com/iMrZero/crawl-typescript.git
+cd crawl-typescript
 npm install
 ```
 
 ## Usage
+
 ```bash
 npm run start -- <URL>
+npm run start -- https://example.com
 ```
 
 ## Structure
 
-crawl-typescipt/
+```
+crawl-typescript/
 ├── src/
 │   ├── crawler.ts       # Core crawling logic
 │   ├── parser.ts        # HTML parsing utilities
@@ -38,3 +41,4 @@ crawl-typescipt/
 ├── tests/               # Unit tests
 ├── package.json
 └── README.md
+```
