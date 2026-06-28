@@ -29,6 +29,7 @@ npm run start -- <URL>
 ```
 
 ## Structure
+
 crawl-typescipt/
 ├── src/
 │   ├── crawler.ts       # Core crawling logic
