@@ -42,3 +42,7 @@ crawl-typescript/
 ├── package.json
 └── README.md
 ```
+
+## Acknowledgments
+
+Built following the [Build a Web Scraper with TypeScript] course on Boot.dev (https://www.boot.dev/courses/build-web-scraper-typescript)
